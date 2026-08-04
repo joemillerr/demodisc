@@ -1,0 +1,19 @@
+index.njk
+  b61a2da 12:ddf51f3a,20:81859651
+  DELETED b61a2da 12:3fa37060,20:4dd80980
+---
+{
+  "schema_version": "authorship/1.0.0",
+  "aidev_track_version": "1.0.0",
+  "base_commit_sha": "4d3cbdf8f596450bf65d4c914f5e3c0121edb943",
+  "prompts": {
+    "b61a2da": {
+      "agent_id": {
+        "tool": "copilot-vscode",
+        "id": "c393c4ba-17d0-4399-8b40-55d269a63e2d",
+        "model": "unknown"
+      },
+      "messages": []
+    }
+  }
+}
