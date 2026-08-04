@@ -1,0 +1,41 @@
+{
+  "name": "demodisc",
+  "tagline": "",
+  "bio": "melodic, ambient, experimental IDM",
+  "image": "/images/profile.jpg",
+  "accentColor": "#e35de5",
+
+  "links": [
+    {
+      "label": "free music",
+      "url": "https://bandcamp.com/yum?code=CODE",
+      "icon": "link",
+      "style": "secondary"
+    }
+  ],
+
+  "social": [
+    {
+      "label": "Bandcamp",
+      "url": "https://demodiscmusic.bandcamp.com/",
+      "icon": "bandcamp"
+    },
+    {
+      "label": "Spotify",
+      "url": "https://open.spotify.com/artist/6Hf8qnQyIJtwLK65GvMtK7",
+      "icon": "spotify"
+    },
+    {
+      "label": "Apple Music",
+      "url": "https://music.apple.com/us/artist/demodisc/1803673308",
+      "icon": "applemusic"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:demodisc@protonmail.com",
+      "icon": "email"
+    }
+  ],
+
+  "footerText": ""
+}

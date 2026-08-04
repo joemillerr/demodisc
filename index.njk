@@ -1,0 +1,89 @@
+---
+permalink: /index.html
+---
+{% from "social-icons.njk" import socialIcon %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ config.name }}{% if config.tagline %} — {{ config.tagline }}{% endif %}">
+  <title>{{ config.name }}</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <style>:root { --accent: {{ config.accentColor | default("#fefeff") }}; }</style>
+</head>
+<body>
+  <main class="container">
+
+    {% if config.image %}
+      <div class="avatar">
+        <img src="{{ config.image }}" alt="{{ config.name }}">
+      </div>
+    {% endif %}
+
+    <h1 class="name">{{ config.name }}</h1>
+
+    {% if config.tagline %}
+      <p class="tagline">{{ config.tagline }}</p>
+    {% endif %}
+
+    {% if config.bio %}
+      <p class="bio">{{ config.bio }}</p>
+    {% endif %}
+
+    {% if config.links %}
+      <nav class="links" aria-label="Streaming and external links">
+        {% for link in config.links %}
+          {% if "CODE" in link.url %}
+          <a
+            href="#"
+            data-code-url="{{ link.url }}"
+            class="link-btn {{ link.style | default('secondary') }}"
+          >{{ link.label }}</a>
+          {% else %}
+          <a
+            href="{{ link.url }}"
+            class="link-btn {{ link.style | default('secondary') }}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >{{ link.label }}</a>
+          {% endif %}
+        {% endfor %}
+      </nav>
+    {% endif %}
+
+    {% if config.social %}
+      <div class="social" role="list" aria-label="Social media">
+        {% for item in config.social %}
+          <a
+            href="{{ item.url }}"
+            class="social-link"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="{{ item.label }}"
+            role="listitem"
+          >{{ socialIcon(item.icon) | safe }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if config.footerText %}
+      <p class="footer">{{ config.footerText }}</p>
+    {% endif %}
+
+  </main>
+  <script>
+    (function () {
+      var codes = {{ bandcampCode | dump | safe }};
+      document.querySelectorAll("[data-code-url]").forEach(function (el) {
+        el.addEventListener("click", function (e) {
+          e.preventDefault();
+          if (!codes.length) return;
+          var code = codes[Math.floor(Math.random() * codes.length)];
+          window.open(el.dataset.codeUrl.replace("CODE", code), "_blank", "noopener,noreferrer");
+        });
+      });
+    })();
+  </script>
+</body>
+</html>

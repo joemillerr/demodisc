@@ -1,0 +1,12 @@
+{
+  "name": "demodisc",
+  "version": "1.0.0",
+  "description": "simple landing page for demodisc links",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
