@@ -1,13 +1,13 @@
 {
   "name": "demodisc",
   "tagline": "",
-  "bio": "melodic, ambient, experimental",
+  "bio": "distilled overthinking",
   "image": "/images/profile.jpg",
   "accentColor": "#e35de5",
 
   "links": [
     {
-      "label": "free music",
+      "label": "get the new album for free",
       "url": "https://bandcamp.com/yum?code=CODE",
       "icon": "link",
       "style": "secondary"
