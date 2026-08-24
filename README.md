@@ -1,3 +1,3 @@
-# demodisc artist link page
+# simple 11ty links page for demodisc
 
-https://www.11ty.dev/
+https://demodisc.link

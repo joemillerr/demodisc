@@ -1,13 +1,13 @@
 {
   "name": "demodisc",
   "tagline": "",
-  "bio": "distilled overthinking",
+  "bio": "crystalizing doubt since '25",
   "image": "/images/profile.jpg",
   "accentColor": "#e35de5",
 
   "links": [
     {
-      "label": "get the new album for free",
+      "label": "click here to get the new album for free",
       "url": "https://bandcamp.com/yum?code=CODE",
       "icon": "link",
       "style": "secondary"
