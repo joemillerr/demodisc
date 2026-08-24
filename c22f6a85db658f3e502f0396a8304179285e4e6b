@@ -1,0 +1,18 @@
+index.njk
+  60d75dd 12:3f6494fc
+---
+{
+  "schema_version": "authorship/1.0.0",
+  "aidev_track_version": "1.0.0",
+  "base_commit_sha": "74a5b4ebb358086772fff4c10e9bc1464c747049",
+  "prompts": {
+    "60d75dd": {
+      "agent_id": {
+        "tool": "copilot-vscode",
+        "id": "f5c701fc-bb85-4b80-a37e-11c0a1fc4bba",
+        "model": "unknown"
+      },
+      "messages": []
+    }
+  }
+}
