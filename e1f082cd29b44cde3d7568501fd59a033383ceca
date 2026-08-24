@@ -1,0 +1,33 @@
+_data/config.json
+  33c062a 4:dc97d2a8,10:01c66724
+  DELETED 33c062a 4:07a1ec04,10:308c3650
+index.njk
+  MIXED db485d9 24:61d45b86
+  DELETED db485d9 24:aa663183
+README.md
+  33c062a 1:067de2c3,3:8d7478db
+  DELETED 33c062a 1:a7d01223,3:74b37fda
+---
+{
+  "schema_version": "authorship/1.0.0",
+  "aidev_track_version": "1.0.0",
+  "base_commit_sha": "970fe75aebeb75adc1814edbf939aa288b445689",
+  "prompts": {
+    "db485d9": {
+      "agent_id": {
+        "tool": "copilot-vscode",
+        "id": "e4225eb6-2553-4ead-8291-8e64a37cb5cd",
+        "model": "unknown"
+      },
+      "messages": []
+    },
+    "33c062a": {
+      "agent_id": {
+        "tool": "copilot",
+        "id": "e4225eb6-2553-4ead-8291-8e64a37cb5cd",
+        "model": "unknown"
+      },
+      "messages": []
+    }
+  }
+}
