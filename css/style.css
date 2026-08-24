@@ -46,8 +46,8 @@ body {
 /* ── Avatar ── */
 
 .avatar {
-  width: 108px;
-  height: 108px;
+  width: 162px;
+  height: 162px;
   border-radius: 50%;
   overflow: hidden;
   border: 2px solid color-mix(in srgb, var(--accent) 60%, transparent);
