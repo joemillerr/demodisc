@@ -1,0 +1,21 @@
+css/style.css
+  09e2226 8:53b9bb8e,11:5381090e
+  MIXED 09e2226 10:4f405fe2
+  DELETED 09e2226 9:b099b3c5,10:3b117a37
+index.njk
+  09e2226 10:afa8e2a9
+---
+{
+  "schema_version": "authorship/1.0.0",
+  "aidev_track_version": "1.0.0",
+  "base_commit_sha": "c22f6a85db658f3e502f0396a8304179285e4e6b",
+  "prompts": {
+    "09e2226": {
+      "agent_id": {
+        "tool": "copilot-vscode",
+        "id": "1a189af5-86b2-4f75-958d-06f428bd7423",
+        "model": "unknown"
+      }
+    }
+  }
+}
