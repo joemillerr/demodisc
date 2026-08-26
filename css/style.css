@@ -5,11 +5,12 @@
 }
 
 :root {
+  color-scheme: dark;
   --bg: #131313;
-  --surface: rgba(255, 255, 255, 0.06);
-  --surface-hover: rgba(255, 255, 255, 0.1);
-  --text: #ffffff;
-  --text-muted: rgba(255, 255, 255, 0.55);
+  --surface: #212121;
+  --surface-hover: #2e2e2e;
+  --text: #cacaca;
+  --text-muted: rgba(237, 237, 237, 0.695);
   --border: rgba(255, 255, 255, 0.1);
   --accent: #9b5de5;
   --radius: 14px;
